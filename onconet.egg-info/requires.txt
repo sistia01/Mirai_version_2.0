@@ -1,0 +1,12 @@
+torch==1.4.0
+torchvision==0.2.0
+sklearn
+scipy
+numpy
+Pillow
+tqdm
+mock
+scikit-image
+imageio
+gitpython
+lifelines

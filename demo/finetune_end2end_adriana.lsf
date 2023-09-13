@@ -1,0 +1,21 @@
+#!/bin/bash
+#BSUB -P acc_shenl03_ml
+#BSUB -W 24:00
+#BSUB -q gpu
+#BSUB -gpu num=2
+#BSUB -R rusage[mem=30000]
+#BSUB -J mirai_finetune
+#BSUB -n 10
+#BSUB -oo finetune_test_20230728_gpu.out
+#BSUB -eo finetune_test_20230728_gpu.er
+
+ml purge
+ml python
+ml python proxies git
+#pip install -r requirements.txt 
+#pip install --upgrade git+https://github.com/CamDavidsonPilon/lifelines.git
+#ml cuda
+#ml cudnn
+#pip install -r requirements.txt 
+
+python scripts/dispatcher.py --experiment_config_path configs/finetune_mirai_adriana_mini_test.json --result_path demo/finetune_results_20230728.csv > finetune_20230728.log 2>&1  

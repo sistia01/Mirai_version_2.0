@@ -1,0 +1,11 @@
+patient_id,exam_id,laterality,view,file_path,years_to_cancer,years_to_last_followup,split_group
+614924,1,L,MLO,/sc/arion/projects/Nestlerlab/shenl03_ml/2023_adriana_bc_risk/Mirai_test/mssm_mammography/images_png_dcmtk_2048x1664/00014501.png,0,5,test
+638597,1,L,MLO,/sc/arion/projects/Nestlerlab/shenl03_ml/2023_adriana_bc_risk/Mirai_test/mssm_mammography/images_png_dcmtk_2048x1664/00010819.png,0,5,test
+638597,1,R,MLO,/sc/arion/projects/Nestlerlab/shenl03_ml/2023_adriana_bc_risk/Mirai_test/mssm_mammography/images_png_dcmtk_2048x1664/00010818.png,0,5,test
+170473,1,L,CC,/sc/arion/projects/Nestlerlab/shenl03_ml/2023_adriana_bc_risk/Mirai_test/mssm_mammography/images_png_dcmtk_2048x1664/00005568.png,0,5,test
+495503,1,R,ML,/sc/arion/projects/Nestlerlab/shenl03_ml/2023_adriana_bc_risk/Mirai_test/mssm_mammography/images_png_dcmtk_2048x1664/00014301.png,0,5,test
+495503,1,R,ML,/sc/arion/projects/Nestlerlab/shenl03_ml/2023_adriana_bc_risk/Mirai_test/mssm_mammography/images_png_dcmtk_2048x1664/00014303.png,0,5,test
+639337,1,L,MLO,/sc/arion/projects/Nestlerlab/shenl03_ml/2023_adriana_bc_risk/Mirai_test/mssm_mammography/images_png_dcmtk_2048x1664/00000358.png,0,5,test
+631934,1,R,CC,/sc/arion/projects/Nestlerlab/shenl03_ml/2023_adriana_bc_risk/Mirai_test/mssm_mammography/images_png_dcmtk_2048x1664/00010037.png,0,5,test
+164002,1,L,MLO,/sc/arion/projects/Nestlerlab/shenl03_ml/2023_adriana_bc_risk/Mirai_test/mssm_mammography/images_png_dcmtk_2048x1664/00005660.png,0,5,test
+469413,1,R,CC,/sc/arion/projects/Nestlerlab/shenl03_ml/2023_adriana_bc_risk/Mirai_test/mssm_mammography/images_png_dcmtk_2048x1664/00010388.png,0,5,test

@@ -1,0 +1,18 @@
+#!/bin/bash
+#BSUB -P acc_shenl03_ml
+#BSUB -q premium
+#BSUB -J mirai_test_premium 
+#BSUB -n 10
+#BSUB -W 1:00
+#BSUB -oo finetune_test_20230726_premium.out
+#BSUB -eo finetune_test_20230726_premium.er
+
+ml purge
+ml python
+ml python proxies git
+#pip install --upgrade git+https://github.com/CamDavidsonPilon/lifelines.git
+#ml cuda
+#ml cudnn
+#pip install -r requirements.txt 
+
+python scripts/dispatcher.py --experiment_config_path configs/finetune_mirai_adriana_mini_premium.json --result_path demo/finetune_results_mssm_mammography_gpuexpress.csv > local_test_finetune_20230630_premium.log 2>&1  

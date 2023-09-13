@@ -1,0 +1,21 @@
+#!/bin/bash
+#BSUB -P acc_shenl03_ml
+#BSUB -q gpuexpress
+#BSUB -gpu num=4
+#BSUB -R himem
+#BSUB -n 10
+#BSUB -W 1:00
+#BSUB -oo gpuexpress_20230705_himem.out
+#BUSB -eo gpuexpress_20230705_himem.er
+#BSUB -J mirai_test_gpuexpress 
+
+ml purge
+#ml python
+ml python proxies git
+#pip install --upgrade git+https://github.com/CamDavidsonPilon/lifelines.git
+#ml cuda
+#ml cudnn
+#pip install -r requirements.txt 
+#cd /sc/arion/projects/shenl03_ml/2023_adriana_bc_risk/Mirai_test/Mirai
+python scripts/dispatcher.py --experiment_config_path configs/finetune_mirai_adriana_mini.json --result_path demo/finetune_results_mssm_mammography_mini_job_test_himem.csv 
+#> finetune_end2end_adriana_mini_job_test.log

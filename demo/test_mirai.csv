@@ -1,0 +1,2 @@
+test_loss,test_reg_loss,test_c_index,test_decile_recall,test_1year_auc,test_2year_auc,test_3year_auc,test_4year_auc,test_5year_auc,results_path,model_path,log_path
+1.0609791209300359,0.0,NA,0.1111111111111111,NA,NA,NA,NA,NA,logs/515cc236ccf9744902dc078840da064e.results,snapshot/7eb870aad4ffa1e50cc7f5eeec48ff78_model.pt,logs/515cc236ccf9744902dc078840da064e.txt

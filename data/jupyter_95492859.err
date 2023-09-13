@@ -1,0 +1,21 @@
+
+Currently Loaded Modules:
+  1) gcc/8.3.0   2) unixODBC/2.3.9   3) openBLAS/0.3.21   4) python/3.7.3
+
+ 
+
+[I 13:15:02.194 NotebookApp] Serving notebooks from local directory: /sc/arion/projects/Nestlerlab/shenl03_ml/2023_adriana_bc_risk/Mirai_test/Mirai/data
+[I 13:15:02.194 NotebookApp] Jupyter Notebook 6.1.4 is running at:
+[I 13:15:02.194 NotebookApp] http://lg03a11:8888/?token=2b76ba2e76011ca23dc3c571fd9a15bf7644c68993056326
+[I 13:15:02.194 NotebookApp]  or http://127.0.0.1:8888/?token=2b76ba2e76011ca23dc3c571fd9a15bf7644c68993056326
+[I 13:15:02.194 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 13:15:02.206 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///hpc/users/sistia01/.local/share/jupyter/runtime/nbserver-98646-open.html
+    Or copy and paste one of these URLs:
+        http://lg03a11:8888/?token=2b76ba2e76011ca23dc3c571fd9a15bf7644c68993056326
+     or http://127.0.0.1:8888/?token=2b76ba2e76011ca23dc3c571fd9a15bf7644c68993056326
+[C 13:17:08.670 NotebookApp] received signal 15, stopping
+[I 13:17:08.673 NotebookApp] Shutting down 0 kernels
+[I 13:17:08.677 NotebookApp] Shutting down 0 terminals
